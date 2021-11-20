@@ -19,6 +19,9 @@ namespace MVCapp.Models
 
         public DbSet<Cliente> Clientes { get; set; }
 
+        public DbSet<Compra> Compras { get; set; }
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EcommerceProducts;Integrated Security=True");
