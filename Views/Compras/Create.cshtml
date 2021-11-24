@@ -1,12 +1,11 @@
 ﻿@model Ecommerce.Models.Compra
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Comprar";
 }
 
-<h1>Create</h1>
+<h1>Comprar</h1>
 
-<h4>Compra</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -31,14 +30,14 @@
                 <select asp-for="ProdutoId" class ="form-control" asp-items="ViewBag.ProdutoId"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Comprar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar para listagem</a>
 </div>
 
 @section Scripts {
