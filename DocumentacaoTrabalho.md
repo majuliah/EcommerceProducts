@@ -24,6 +24,8 @@
 
 #### ***LINK PARA O VÍDEO:***
 
+https://fundacaooswaldoaranha.sharepoint.com/:v:/s/Trabalhos3/ESnR2PcfNc1JrJ42PaFkDbgBBc1KqBA5ucST2Z08_vENRA?email=rosenclever.gazoni%40foa.org.br&e=4HmkdJ
+
 
 
 ### REFERÊNCIAS BIBLIOGRÁFICAS:
@@ -33,5 +35,6 @@
 - *Stack Overflow*: https://pt.stackoverflow.com/questions/113840/como-funciona-o-padrão-dao
 - Hot Examples: https://csharp.hotexamples.com/pt/examples/BlueFox.AM.DAO/Site/-/php-site-class-examples.html
 - Dev Media: https://www.devmedia.com.br/dao-com-ado-net-criando-um-cadastro-mestre-detalhe/31048
-- 
+
+  
 
