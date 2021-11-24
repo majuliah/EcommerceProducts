@@ -11,6 +11,7 @@ namespace Ecommerce.Models
 
         public int Id { get; set; }
         [Display(Name = "Descrição")]
+
         [Required(ErrorMessage = "O campo Descrição é obrigatório")]
         public string Descricao { get; set; }
 
