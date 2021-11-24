@@ -22,6 +22,36 @@
 
 
 
+## Um tour pelo projeto:
+
+- ### Tela Inicial:
+
+  ![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print1.png?raw=true)
+
+- ### Listagem de Categorias
+
+  ![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print2.png?raw=true)
+
+- ### Fornecendo valores nulos
+
+  ![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print3.png?raw=true)
+
+  ![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print4.png?raw=true)
+
+![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print5.png?raw=true)
+
+
+
+## TESTE UNITÁRIO ESQUECIDO DE APRESENTAR NO VÍDEO:
+
+- ![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print6.png?raw=true)
+- ![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print7.png?raw=true)
+- ![](https://github.com/majuliah/EcommerceProducts/blob/main/imgs/print8.png?raw=true)
+
+
+
+
+
 #### ***LINK PARA O VÍDEO:***
 
 https://fundacaooswaldoaranha.sharepoint.com/:v:/s/Trabalhos3/ESnR2PcfNc1JrJ42PaFkDbgBBc1KqBA5ucST2Z08_vENRA?email=rosenclever.gazoni%40foa.org.br&e=4HmkdJ
