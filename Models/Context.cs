@@ -13,6 +13,7 @@ namespace MVCapp.Models
 {
     public class Context : DbContext
     {
+       
         public virtual DbSet<Categoria> Categorias { get; set; }
        
         public DbSet<Produto> Produtos { get; set; }
@@ -25,6 +26,11 @@ namespace MVCapp.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EcommerceProducts;Integrated Security=True");
+        }
+
+        public virtual void SetModified(object entity)
+        {
+            Entry(entity).State = EntityState.Modified;
         }
     }
 }

@@ -8,17 +8,21 @@
 
 #### Um cliente pode fazer uma ou muitas compras, uma compra pode ter um ou muitos produtos e um produto pode conter somente uma categoria. 
 
-###  # DAO:
+
+
+#### **DATA ACCESS OBJECT (DAO)**
+
+#### Tem como objetivo separar as camadas de regra de negócio com os dados. Ele abstrai todo o acesso da fonte de dados, além de fazer conexão com a fonte para obter e armazenar dados. Ele não é um CRUD, mas ele faz a interpretação dos métodos para linguagem  de nível SQL. Ele também faz execuções internas para que as demais classes não precisem fazer a comunicação com as abstrações de dados, deixando a comunicação a parte, organizando a aplicação. Não deve ser responsável por mais do que o acesso aos dados. Ao invés de termos várias partes com linguagem SQL no código, temos a mesma linguagem. É ideal quando o sistema precisa fazer diversas buscas e acesso a várias tabelas. É uma forma de dividir responsabilidades.
+
+#### Na nossa aplicação, o padrão DAO foi utilizado através de classes, onde inserimos os atributos necessários para compor as informações e através das migrations transformamos em tabelas, por se tratar de um pequeno projeto de CRUD simples, a forma de usarmos o DAO foi esta, através da geração de tabelas das classes. Além da conexão com o banco de dados relacional SQL Server. 
+
+### CONCLUSÃO:
+
+#### Foi necessário juntar diversos conteúdos para que a aplicação funcionasse da maneira que esperávamos. Quanto aos testes unitários, somente o put passou em todos as autenticações. Seria necessário mais tempo para conseguirmos fazer todos os testes eficazes.  A dificuldade de desenvolvimento foi média, mas conseguimos atingir todos os objetivos e superar as expectativas e entregar o proposto.  
 
 
 
-## CONCLUSÃO:
-
-
-
-#### LINK PARA O VÍDEO:
-
-
+#### ***LINK PARA O VÍDEO:***
 
 
 
@@ -28,4 +32,6 @@
 - Microsoft: https://docs.microsoft.com/pt-br/cpp/mfc/dao-classes?view=msvc-170
 - *Stack Overflow*: https://pt.stackoverflow.com/questions/113840/como-funciona-o-padrão-dao
 - Hot Examples: https://csharp.hotexamples.com/pt/examples/BlueFox.AM.DAO/Site/-/php-site-class-examples.html
+- Dev Media: https://www.devmedia.com.br/dao-com-ado-net-criando-um-cadastro-mestre-detalhe/31048
+- 
 

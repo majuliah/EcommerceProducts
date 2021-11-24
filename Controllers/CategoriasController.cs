@@ -65,6 +65,11 @@ namespace Ecommerce.Controllers
             return View(categoria);
         }
 
+        public Task Add(Categoria categoria)
+        {
+            throw new NotImplementedException();
+        }
+
         // GET: Categorias/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -72,7 +77,7 @@ namespace Ecommerce.Controllers
             {
                 return NotFound();
             }
-
+           
             var categoria = await _context.Categorias.FindAsync(id);
             if (categoria == null)
             {
