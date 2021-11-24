@@ -12,12 +12,12 @@ namespace Ecommerce.Models
     {
 
         public int Id { get; set; }
-<<<<<<< HEAD
+
         [Display(Name = "Descrição")]
 
-=======
+
         [DisplayName("Descrição da Compra")]
->>>>>>> c11b7b6b488147c0a00e1b0491171bdb54b99e39
+
         [Required(ErrorMessage = "O campo Descrição é obrigatório")]
         public string Descricao { get; set; }
 
